@@ -1,0 +1,25 @@
+
+
+Task 01:- Creating a Registration page
+
+##
+
+1. Create a new React project (use Vite or npx method)
+
+2. Install bootstrap
+
+3. Create a new Component for Registration page (Example: In components folder / Registration.js)
+
+4. Check the attached screenshot for the page design. Try to develop as shown in the given screenshot.
+
+###################
+
+Task 02: Creating Schema for Registration page
+
+1. Create a new Express project
+
+2. Create a new route for registration
+
+3. create a Schema for registration details 
+
+4. In schema page, inlcude the fileds 1. name, 2. email, 3. password

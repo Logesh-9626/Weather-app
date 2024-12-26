@@ -1,0 +1,8 @@
+@import '/node_modules/bootstrap/dist/css/bootstrap.rtl.min.css';
+
+body {
+    background-image: url("/Assets/clouds.jpg");
+  
+  ;
+    ; /* or 'contain' depending on your preference */
+}

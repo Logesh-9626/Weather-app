@@ -1,0 +1,21 @@
+
+
+Task 02 : - Submitting user entered details to mongoDB & verify email
+
+##
+
+1. create a new empty object using useState
+
+2. using onChange, save the user entered data into the object
+
+3. during onSubmit, send the object using axios.post
+
+4. in Express, receive the object in req.body
+
+5. using findOne, check if the email exists already
+
+6. send a json response
+
+7. receive the response in a variable (in front-end)
+
+8. based on the received response, display the alert box

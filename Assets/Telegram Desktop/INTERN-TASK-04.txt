@@ -1,0 +1,17 @@
+TASK 4:
+
+1. Create a Pricing component with 3 plans.
+
+2. Save the user selected Plan details in context.
+
+3. Create a new Object (user + plan details).
+
+4. Navigate from Pricing page -> Submission page after Plan is set in context.
+
+(Note: try to navigate to Submission page only if both user & plan details are set into the Object).
+
+5. On Submission page, consume the Object from the context and save in a state (during onLoad).
+
+6. If Object available, embed the object with the API (during onLoad).
+
+7. Save the object into the DB.

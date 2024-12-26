@@ -1,0 +1,19 @@
+
+
+Take the references from this video:
+
+
+01. CRUD using REACT: 
+
+https://www.youtube.com/watch?v=VmCv19TJYeI
+
+watch from 0.00 to 9.43 to know how to save user entered data into an object
+
+then attach the object with axios.post
+
+##
+
+02. FindOne method - to check email already exist or not
+
+https://www.youtube.com/live/nBuyHHkNgpI
+

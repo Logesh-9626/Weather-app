@@ -1,0 +1,16 @@
+
+Task 05 :
+
+1. Receive the user object in  express.
+
+2. Get the current date.
+
+3. Get the plan validity time using switch case.
+
+4. Calculate the total expiry date.
+
+5. Save user details, hash, salt, plan, current date, expiry date into DB
+
+(modify the schema accordingly)
+
+6. Send a response with a status code to the front-end after data save.
