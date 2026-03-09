@@ -22,12 +22,15 @@ const Forecast = ({ forecastWeather, location }) => {
                                     data-bs-target={`#${index}`}
                                     aria-expanded="false"
                                     aria-controls="flush-collapseOne">
-                                    <div className="d-flex flex-row justify-content-between mb-2 ">
-                                        <div className= "p-3 fw-bold">DAY:{data.date}</div>
-                                        <div className="p-2 fw-bold">{data.day.condition.text}</div>
-                                        <div className="p-2 fw-bold "><img src={data.day.condition.icon} style={{width:"70%",height:"90%"}} /> </div>
-                                        <div className="p-2 fw-bold"><h6>MAX temp:{data.day.maxtemp_c}</h6></div>
-                                    </div>
+
+
+                                  <div className="d-flex flex-row justify-content-between align-items-center gap-3 mb-2 w-100">
+                                        <div className="p-2 fw-bold flex-fill text-center">DAY:{data.date}</div>
+                                        <div className="p-2 fw-bold flex-fill text-center">{data.day.condition.text}</div>
+                                        <div className="p-2 fw-bold flex-fill text-center"><img src={data.day.condition.icon} style={{width:"60px",height:"50px"}} /> </div>
+                                        <div className="p-2 fw-bold flex-fill text-center"><h6 className="mb-0">MAX temp:{data.day.maxtemp_c}°</h6>
+                                        </div>
+                                    </div>  
                                 </button>
                             </h2>
                             <div id={`${index}`}

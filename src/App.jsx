@@ -83,7 +83,8 @@ function App() {
       </h4>
       <div className="container bg-primary  p-2 rounded ">
         <input type="text"
-        value={Clickedcity}
+        placeholder="Search city..."
+        value={city || ''}
          className="form-control" 
           onChange={(e) => { setcity(e.target.value)
           if(e.target.value==""){
